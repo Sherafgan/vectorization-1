@@ -53,6 +53,7 @@ similarity-database-server/dependency-reduced-pom.xml
 ##################EDITED-HERE-ON#######################
 
 Auth/
+Test/
 *.log
 
 # User-specific stuff:
