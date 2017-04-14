@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/similarity-database-node/similarity-database-node.iml" filepath="$PROJECT_DIR$/similarity-database-node/similarity-database-node.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vectorization.iml" filepath="$PROJECT_DIR$/vectorization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/similarity-database-client/vectorization-client.iml" filepath="$PROJECT_DIR$/similarity-database-client/vectorization-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/similarity-database/vectorization-database.iml" filepath="$PROJECT_DIR$/similarity-database/vectorization-database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/similarity-database-driver/vectorization-driver.iml" filepath="$PROJECT_DIR$/similarity-database-driver/vectorization-driver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/similarity-database-master/vectorization-master.iml" filepath="$PROJECT_DIR$/similarity-database-master/vectorization-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/similarity-database-server/vectorization-server.iml" filepath="$PROJECT_DIR$/similarity-database-server/vectorization-server.iml" />
+    </modules>
+  </component>
+</project>

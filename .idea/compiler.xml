@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="similarity-database-node" />
+        <module name="vectorization-client" />
+        <module name="vectorization-database" />
+        <module name="vectorization-driver" />
+        <module name="vectorization-master" />
+        <module name="vectorization-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="similarity-database-node" target="1.5" />
+      <module name="vectorization" target="1.5" />
+      <module name="vectorization-client" target="1.5" />
+      <module name="vectorization-database" target="1.5" />
+      <module name="vectorization-driver" target="1.5" />
+      <module name="vectorization-master" target="1.5" />
+      <module name="vectorization-server" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
