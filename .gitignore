@@ -52,6 +52,9 @@ similarity-database-server/dependency-reduced-pom.xml
 
 ##################EDITED-HERE-ON#######################
 
+Auth/
+*.log
+
 # User-specific stuff:
 .idea/workspace.xml
 .idea/tasks.xml
