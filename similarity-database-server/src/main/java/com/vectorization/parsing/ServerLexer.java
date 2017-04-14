@@ -64,6 +64,10 @@ public class ServerLexer extends Lexer {
         return getLookAhead() == '-';
     }
 
+    private boolean isSciNotation() {
+        return (getLookAhead() == 'E' | getLookAhead() == 'e');
+    }
+
     private Token consumeName() {
         StringBuilder sb = new StringBuilder();
         if (isIdentifierStart()) {
@@ -96,6 +100,18 @@ public class ServerLexer extends Lexer {
             sb.append(getLookAhead());
             consume();
         }
+        if (isSciNotation()) {
+            sb.append(getLookAhead());
+            consume();
+        }
+        if (isNeg()) {
+            sb.append(getLookAhead());
+            consume();
+        }
+        while (isDigit()) {
+            sb.append(getLookAhead());
+            consume();
+        }
         return new Token(SSType.NUMBER, sb.toString());
     }
 
@@ -109,7 +125,19 @@ public class ServerLexer extends Lexer {
             sb.append(getLookAhead());
             consume();
         }
-        while (isDigit() || isNeg()) { //get rid of '|| isNeg'
+        while (isDigit()) {
+            sb.append(getLookAhead());
+            consume();
+        }
+        if (isSciNotation()) {
+            sb.append(getLookAhead());
+            consume();
+        }
+        if (isNeg()) {
+            sb.append(getLookAhead());
+            consume();
+        }
+        while (isDigit()) {
             sb.append(getLookAhead());
             consume();
         }
