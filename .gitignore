@@ -54,6 +54,7 @@ similarity-database-server/dependency-reduced-pom.xml
 
 Auth/
 Test/
+VecSearchData/
 *.log
 
 # User-specific stuff:
